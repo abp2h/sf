@@ -3,7 +3,7 @@
 require('XMLRPC.inc.php');
 	function checkapp($the_app)
 	{
-		$deactivateMe = ""; // to disable a webapp, enter it's short code here
+		$deactivateMe = "UNIQUE_APP_SHORTCODE"; // to disable a webapp, enter it's short code here
 		if (isset($the_app) && $the_app == $deactivateMe)
 			return true; // Application Disabled
 		else
