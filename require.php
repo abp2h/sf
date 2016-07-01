@@ -1,6 +1,6 @@
 <?php
 
-require('XMLRPC.inc.php');
+require('xmlrpcinc.php');
 	function checkapp($the_app)
 	{
 		$deactivateMe = "UNIQUE_APP_SHORTCODE"; // to disable a webapp, enter it's short code here
